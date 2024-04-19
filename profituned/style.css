@@ -1,0 +1,1072 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arima Madurai;
+
+}
+body{
+    background:#282828;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background: #161616;
+    height: 70px;
+    align-items: center;
+}
+.logo img{
+    width: 253px;
+    height: 56px;
+    margin-left: 20px;
+}
+nav{
+    width: 506px;
+    height: 55px;
+    top: 11px;
+    left: 478px;
+}
+.nav-links{
+    
+    margin-left: 35px;
+}
+
+ul, li, a{
+text-decoration: none;
+list-style: none;
+font-family: Arima Madurai;
+font-size: 20px;
+font-weight: 700;
+line-height: 55px;
+gap: 2rem;
+text-align: center;
+display: flex;
+color: white;
+} 
+
+.icon{
+margin-right: 20px;
+align-items: center;
+}
+img.menu{
+    display: none;
+}
+.icon img{
+    margin: 5px;
+    width: 36px;
+    height: 38px;
+    top: 13px;
+    left: 1220px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.notify img{
+    position: absolute;
+    width: 27px;
+    height: 34px;
+    top: -3px;
+    margin-left: -130px;
+    gap: 0px;
+    border-radius: 11px 0px 0px 0px;
+    opacity: 0px;
+}
+/* =====================================HERO SECTION============================== */
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1A1A1A;
+    
+    padding: 20px;
+}
+
+.left-hero h1{
+    width: 388px;
+    height: 128px;
+    /* margin-top: 148px; */
+    margin-left: 30px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Arima Madurai;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1.600000023841858px;
+    text-align: left;   
+    color: #F2F2F2;
+
+
+
+}
+.left-hero p{   
+font-family: Nunito;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.82px;
+text-align: left;
+margin-left: 30px;
+color: white;
+padding: 20px 0;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    margin-left: 25px;
+    text-align: center;
+    border-radius: 35px;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.btn img{
+    width: 20px;
+    height: 20.88px;
+    margin-right: 10px;
+    align-items: center ;
+}
+.right-hero img{
+    width: 600px;
+    height: 400px;
+    margin-right: -15px;
+}
+/* /* =====================================LIST SECTION============================== */
+
+.list-section{
+    /* width: 1425px; */
+    height: 81px;
+    background: #D9D9D9;
+}
+.list-section img {
+    margin-top: 34px;
+    margin-left: 96px;
+    color: #000000;
+    width: 15px;
+    height: 13px;
+    
+}
+span{
+    color: #484848;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1.600000023841858px;
+    /* text-align: left; */
+}
+/* /* =====================================SALE SECTION============================== */
+.sale-section{
+    width: 100%;
+    height: 178.96px;
+    border: Mixed solid #282828;
+    opacity: 0px;
+    background-color:  #1F1F1F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.sale-data{
+    /* background-color: #282828; */
+    height: 178px;
+    left: 14px;
+    border: 1px 0px 0px 0px;
+    
+}
+.sale-data img{
+    width: 1330px;
+}
+.sale-data h5{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 70px;
+    color: #F2F2F2;
+    font-family: Arima Madurai;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 55.52px;
+    letter-spacing: -1.600000023841858px;
+    text-align: left;
+}
+.sale-data p{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 70px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.82px;
+    text-align: left;
+    color: #83868A;
+}
+.sale-right{
+    width: 200px;
+    height: 100px;
+    color:  #F2F2F2;
+    margin: 0 100px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading h3{
+    margin-left: -1px;
+    font-family: Arima Madurai;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 8px;
+
+}
+.para {
+    margin-left: -2px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    text-align: center;
+
+}
+
+/* /* =====================================PRODUCT SECTION============================== */
+.container{
+    
+    height: 756px;
+    top: -2414px;
+    left: 911px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FAFAFB; 
+    align-items: center;
+    justify-content: center;   
+}
+.left-pro img{
+    width: 584px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 100px;
+    /* top: -2330px; */
+    /* left: 1069px; */
+    
+}
+.container h6{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    color: #52525B;
+
+
+
+}
+.small-row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.small-col{
+    
+    padding: 10px;
+    margin-left: 90px;
+}
+.small-col img{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+   background-color: #D1D1D1;
+}
+
+.right-pro{
+    /* width: 242px; */
+    height: 497px;
+    position: absolute;
+    margin-top: -490px;
+    padding-left: 10px;
+    margin-left: 720px;
+}
+.right-head{
+    font-family: Arima Madurai;
+font-size: 30px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 3px;
+text-align: left;
+}
+.right-mini{
+    display: flex;
+    padding: 2px;
+}
+.right-mini h1{
+    
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: left;
+    
+}
+.right-mini p{
+    font-family: Plus Jakarta Sans;
+font-size: 21px;
+font-weight: 700;
+line-height: 34px;
+text-align: left;
+padding: 5px;
+color: #71717A;
+}
+.r-p{
+    color: #71717A;
+    padding: 4px;
+    margin-left: 15px;
+    margin-top: -21px;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+
+}
+.right-pro-ad{
+    display: flex;
+    padding-top: 20px;
+}
+.right-pro-ad p{
+    
+    padding-left: 8px;
+    font-family: Nunito;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+color:  #52525B;
+}
+.right-pro-btn{
+    padding-top: 30px;
+}
+.btn2{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    gap: 10px;
+    border: 1px solid #A1A1AA;
+    background: #FAFAFB;
+    cursor: pointer;
+
+}
+.btn2 .minus{
+    width: 2.17px;
+    height: 15.16px;
+    top: -1961.32px;
+    left: 1765.16px;
+    gap: 0px;
+    border-radius: 25px 0px 0px 0px;
+    opacity: 0px;
+    rotate: 90deg;
+    text-align: left;
+    margin-right: 0px;
+    margin-left: -100px;
+    margin-top: 7px;
+    
+}
+p.btn2-para {
+    margin-top: -16px;
+}
+img.plus {
+    margin-right: -85px;
+    margin-top: -23px;
+}
+.btn2 .plus{
+
+    height: 15.16px;
+    text-align: right;
+    margin-left: 30px;
+    
+}
+.btn3{
+    width: 180px;
+    height: 50px;
+    margin-left: 25px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    gap: 10px;
+    border: 1px solid #FFBE16;
+    background: #FECE23;
+    cursor: pointer;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+
+}
+.btn3 img{
+    padding-right: 8px;
+}
+.btn4{
+    width: 170px;
+    height: 39px;
+    margin-top: 18px;
+    border-radius:20px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #E7E7E7
+
+}
+.btn4 img{
+    margin-left: 50px;
+    padding-top: 5px;
+    /* width: 15px; */
+height: 20px;
+
+
+}
+.color{
+    margin-top: 10px;
+}
+.color p{
+    
+    padding-top: 10px;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+}
+.color img{
+    margin-top: 15px;
+}
+/* /* =====================================REVIEW SECTION============================== */
+
+.review{
+    height: 150px;
+    background: #FFFFFF;
+}
+.review-data {
+    margin-left: 140px;
+    margin-top: 30px;
+}
+.review-data img{
+    margin-bottom: 8px;
+    margin-left: 5px;
+}
+.inner-review{
+    width: 944px;
+   display: flex;
+   margin-left: 90px;
+}
+.review-heading{
+    width: 150px;
+}
+.review-heading h4{
+    margin-left: -100px;
+    font-family: Quicksand;
+    font-size: 18.62px;
+    font-weight: 300;
+    line-height: 23.27px;
+    text-align: center;
+}
+.review-para{
+    margin-left: 10px;
+    color:#A1A1AA
+}
+
+/* /* =====================================TESTIMONIALS SECTION============================== */
+.empty{
+    height: 30px;
+    background: #1A1A1A;
+}
+.testimonial{
+  height: 554px;
+  /* border: 1px solid #FFFFFF; */
+}
+.testimonial-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin: 50px;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #A1A1A1;
+}
+.inner-testimonials{
+        display: flex;
+        justify-content: space-evenly;
+       row-gap: 15px;
+        flex-wrap: wrap;
+        
+}
+
+.testimonial-review{
+    width: 570px;
+    height: 175px;
+   margin-left: 19px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    padding: 30px;
+    display: flex;
+}
+.testimonial-data{
+    padding-left: 15px;
+}
+.testimonial-data img{
+    padding-bottom: 10px;
+}
+.testimonial-data p, h4{
+    padding-bottom: 8px;
+}
+.testimonial-data p{
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+
+}
+.testimonial-data h4{
+    
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-weight: 700;
+/* line-height: 22px; */
+text-align: left;
+
+}
+.testimonial-data h6{
+   
+font-family: Plus Jakarta Sans;
+font-size: 14px;
+font-weight: 400;
+/* line-height: 22px; */
+color:  #414141;
+
+
+}
+
+/* /* =====================================FAQ SECTION============================== */
+
+.faq-section{
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #282828;
+    color: #D1D1D1;
+}
+.title{
+   
+    padding: 0px 32px 0px 32px;
+    gap: 32px;
+    margin: 1.5rem 0;
+    font-family: Arima Madurai;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 78.38px;
+    letter-spacing: -1.600000023841858px;
+    text-align: center;
+    color: #F2F2F2;
+
+}
+.faq-para{
+    font-family: Nunito;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+
+
+}
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+}
+.question img{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 0px;
+}
+.question h3{
+    font-family: Arima Madurai;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    padding-bottom: 10px;
+    color: #F2F2F2;
+
+}
+.answer p {
+    /* padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem; */
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+}
+.faq.active .answer{
+    max-height: 300px;
+}
+
+
+ @media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    body{
+        width: 390px;
+       
+    }
+    header{
+        width: 390px;
+        height: 47px;
+    }
+    .logo img {
+       /* Adjust logo size */
+        margin-left: 10px; /* Adjust logo margin */
+        width: 126px;
+        height: 28px;
+        top: 9px;
+        left: 13px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+    .nav-links {
+        display: none; /* Hide navigation links */
+    }
+    .icon img {
+       
+        width: 18.34px;
+        height: 19.36px;
+        margin-right: 60px;
+
+        
+
+    }
+    .icon2, .icon3{
+        display: none;
+    }
+    .notify img {
+        margin-top: 12px;
+        width: 18.34px;
+        height: 19.36px;
+        margin-left: -916px;
+        margin-top: 8px;
+    }
+    img.menu{
+        /* width: 19px;
+        height: 15px;
+        position: absolute;
+        margin-left: -895px;
+        margin-top: 4px;
+        border: 1px; */
+        width: 19px;
+        height: 15px;
+        /* position: absolute; */
+        /* margin-left: -901px; */
+        margin-top: -19px;
+        border: 1px;
+        margin-inline: auto;
+        display: flex;
+        margin-left: 40px;
+
+
+    }
+}
+@media only screen and (max-width: 768px) {
+    .hero-section{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .list-section{
+        width: 390px;
+        /* height: 47px; */
+        width: 392.06px;
+        height: 50px;
+    }
+    .list-section span img{
+       margin-top: -40px;
+    }
+    .list-section span{
+        color: #484848;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1.600000023841858px;
+     text-align: left;
+        margin-left: -71px;
+    padding: 5px;
+    }
+    .list-section span.UM{
+        display: none;
+    }
+    .list-section span.GB{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sale-section{
+
+        
+        /* height: 50px; */
+        display: flex;
+        flex-direction: column;
+        width: 390px;
+       /* height: 852px; */
+
+
+    }
+    .sale-right{
+        width: 288.71px;
+        height: 44px;
+        margin-left: 80px;
+        position: absolute;
+        margin-top: 15px;
+    }
+    .sale-data{
+        display: flex;
+        flex-direction: column;
+        width: 390px;   
+    }
+    .sale-data h5{
+        margin-left: 115px;
+        font-family: Arima Madurai;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 32px;
+        letter-spacing: -0.5px;
+        margin-top: 80px;
+        
+
+    }
+    .sale-data p{
+        font-family: Nunito;
+        font-size: 11.45px;
+        font-weight: 400;
+        line-height: 19.64px;
+        margin-left: 50px;
+        margin-top: 135px;
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 390px;
+    }
+    .container h6{
+        display: none
+    }
+
+    .left-pro img{
+        width: 268px;
+        height: 249px;
+        margin-top: -295px;
+        margin-left: 0px;
+    }
+    
+    .small-row{
+        width: 505.35px;
+        height: 59.48px;
+        top: 1199px;
+        left: 20px;
+    }
+    .small-col img{
+        width: 58.9px;
+        height: 58.9px;
+        margin-top: -45px;
+    }
+    .right-pro{
+        width: 242px; 
+        height: 497px;
+        position: absolute;
+        margin-top: 520px;
+        padding-left: 10px;
+        margin-left: 0px;
+    }
+    .right-pro h3{
+        width: 502px;
+        height: 100px;
+        font-family: Arima Madurai;
+        font-size: 16.64px;
+        font-weight: 700;
+        line-height: 21.08px;
+        letter-spacing: 1.664107322692871px;
+        text-align: center;
+        margin-left: -150;
+    }
+    .right-pro p{
+        margin-top: 55px;
+        width: 135.98px;
+        height: 14px;
+        position: absolute;
+        margin-left: -30px;
+        font-family: Plus Jakarta Sans;
+        font-size: 9.28px;
+        font-weight: 500;
+        line-height: 13.92px;
+        text-align: left;
+    }
+    .right-pro img{
+        width: 55.67px;
+        height: 10.6px;
+        top: 1331.33px;
+        left: 48px;
+        padding: 0px;
+    }
+    .right-mini h1{
+    
+        font-family: Plus Jakarta Sans;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: left;
+        margin-left: -40px;
+
+    }
+    .right-mini p{
+        width: 153px;
+        height: 67px;
+        gap: 0px;
+        opacity: 0px;
+        margin-top: 0px;
+        margin-left: 5px;
+        font-family: Plus Jakarta Sans;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 34px;
+        text-align: left;
+    }
+     img.mini-tag{
+        width: 14px;
+        height: 14px;
+        margin-left: -40px;
+        padding: 1.4px;
+    }
+    p.r-p{
+        margin-top: -17px;
+        margin-left: -25px;
+    }
+    .btn2{
+        width: 160.04px;
+        height: 40.24px;
+        top: 1462px;
+        left: 53px;
+        gap: 0px;
+        border-radius:19px;
+    
+    }
+    p.btn2-para{
+        font-family: Inter;
+        font-size: 19.67px;
+        font-weight: 700;
+        line-height: 23.8px;
+        text-align: left;
+        margin-top: -24px;
+    margin-left: 67px;
+
+    }
+    .btn2 .minus{
+        margin-left: 3px;
+        width: 0.94px;
+        height: 12.17px;
+        border-radius: 19.71px 0px 0px 0px;
+        rotate: -90deg;
+        margin-left: -90px;
+    }
+    .btn2 .plus{
+        margin-left: 60px;
+        width: 11px;
+    }
+    .btn3{
+        width: 160.04px;
+        height: 40.24px;
+        gap: 0px;
+        border-radius:19px;
+        border: 1px solid #A1A1AA;
+        background: #FAFAFB;
+        margin-left: 5px;
+    }
+    .btn3 img{
+        width: 15.77px;
+        height: 16.46px;
+        top: 1473.83px;
+        left: 195.85px;
+        gap: 0px;
+        opacity: 0px;
+        margin-right: 5px;
+
+
+    }
+    .right-pro-btn{
+        width: 350px;
+        margin-left: -50px;
+    }
+
+    .right-pro-ad{
+        display: none;
+    }
+    .color{
+        display: none;
+    }
+    .btn4{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+   
+
+    .testimonial{
+        background:#1A1A1A;
+    }
+    .testimonial-heading{
+        display: none;
+    }
+    .inner-testimonials{
+        width: 330px;
+        height: 327.69px;
+      margin-top: 50px;
+        left: 28px;
+        gap: 5px; 
+    }
+    .testimonial-review{
+        width: 330px;
+        height: 100.34px;
+        border-bottom: 0.71px solid #F4F4F5;
+        background:  #1A1A1A;
+        color: #fff;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+}
+    .testimonial-img img{
+        width: 20.27px;
+        height: 20.27px;
+    }
+   
+    .testimonial-data img{
+        width: 54.69px;
+        height: 14.67px;
+        padding-bottom: 5px;
+    }
+    .testimonial-data p{
+        font-family: Plus Jakarta Sans;
+        font-size: 7.54px;
+        font-weight: 400;
+        line-height: 12.26px;
+        text-align: left;
+        padding-bottom: 4px;
+    }
+    .testimonial-data h4{
+        font-family: Plus Jakarta Sans;
+        font-size: 6.6px;
+        font-weight: 700;
+        line-height: 10.37px;
+        text-align: left;
+        padding-bottom: 4px;
+    }
+    .testimonial-data h6{
+        font-family: Plus Jakarta Sans;
+        font-size: 6.6px;
+        font-weight: 400;
+        /* line-height: 10.37px; */
+
+        
+    }
+
+}
+@media only screen and (max-width: 768px) {
+.review{
+    display: none;
+}
+
+} 
+@media only screen and (max-width: 768px) {
+.title{
+    font-family: Arima Madurai;
+font-size: 30px;
+font-weight: 600;
+line-height: 38px;
+text-align: center;
+
+}
+.faq-para{
+    font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+line-height: 19px;
+text-align: center;
+}
+.question h3{
+    font-family: Arima Madurai;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+}
+.answer p{
+    font-family: Nunito;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+.question img {
+    position: absolute;
+    margin-left: 285px;
+    margin-top: 0px;
+}
+
+} 
+
+
